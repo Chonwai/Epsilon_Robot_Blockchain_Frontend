@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "GrLivArea": 1710,
+            "SalePrice": 208500
+        },
+        {
+            "GrLivArea": 1262,
+            "SalePrice": 181500
+        },
+        {
+            "GrLivArea": 1786,
+            "SalePrice": 223500
+        },
+        {
+            "GrLivArea": 1717,
+            "SalePrice": 140000
+        },
+        {
+            "GrLivArea": 2198,
+            "SalePrice": 250000
+        },
+        {
+            "GrLivArea": 1362,
+            "SalePrice": 143000
+        },
+        {
+            "GrLivArea": 1694,
+            "SalePrice": 307000
+        },
+        {
+            "GrLivArea": 2090,
+            "SalePrice": 200000
+        },
+        {
+            "GrLivArea": 1774,
+            "SalePrice": 129900
+        },
+        {
+            "GrLivArea": 1077,
+            "SalePrice": 118000
+        }
+    ]
+}
