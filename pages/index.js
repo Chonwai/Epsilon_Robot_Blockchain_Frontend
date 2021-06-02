@@ -8,6 +8,8 @@ import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import ExploreIcon from '@material-ui/icons/Explore';
 import { toast, ToastContainer } from 'react-nextjs-toast';
+import Background from '../components/Background';
+import Space from '../components/Space';
 import 'animate.css';
 
 let currentDay = 1;
@@ -54,16 +56,18 @@ export default function Home() {
         <div
             className={styles.container}
             style={{
-                backgroundImage: 'url("/image/background.gif")',
+                // backgroundImage: 'url("/image/background.gif")',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
-                backgroundColor: 'black',
+                backgroundColor: 'transparent',
             }}
         >
             <Head>
                 <title>MarsLink</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+
+            <Space />
 
             <main className="flex w-full">
                 <ToastContainer position={'top'} />

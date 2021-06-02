@@ -91,10 +91,6 @@ function Scatterplot(props) {
                 .duration(30000)
                 .ease(d3.easeLinear)
                 .attr('stroke-dashoffset', 0);
-
-            // for (let i = 0; i < props.chain.length; i++) {
-
-            // }
         }
     }, [props]);
     return (
