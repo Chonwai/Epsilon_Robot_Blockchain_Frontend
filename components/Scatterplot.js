@@ -88,7 +88,7 @@ function Scatterplot(props) {
                 .attr('stroke-dasharray', 20000)
                 .attr('stroke-dashoffset', 20000)
                 .transition()
-                .duration(30000)
+                .duration(40000)
                 .ease(d3.easeLinear)
                 .attr('stroke-dashoffset', 0);
         }
